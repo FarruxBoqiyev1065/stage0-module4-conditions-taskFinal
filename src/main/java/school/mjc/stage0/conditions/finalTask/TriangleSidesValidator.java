@@ -7,6 +7,8 @@ public class TriangleSidesValidator {
                     && ((firstSide + thirdSide) > secondSide)
                    && ((secondSide + thirdSide) > firstSide)){
                 System.out.println("this is a valid triangle");
+            }else {
+                System.out.println("it's not a triangle");
             }
         }else {
             System.out.println("it's not a triangle");
